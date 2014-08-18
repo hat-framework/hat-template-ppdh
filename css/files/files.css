@@ -1,0 +1,56 @@
+.list_files_arquivo{
+    float: left;
+    margin: 1px;
+    position: relative;
+    
+    padding: 15px;
+	
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	
+	background: rgb(244, 245, 243);
+	
+	-moz-box-shadow: inset 1px 1px 4px 0px rgba(0,0,0,.05);
+	-webkit-box-shadow: inset 1px 1px 4px 0px rgba(0,0,0,.05);
+	box-shadow: inset 1px 1px 4px 0px rgba(0,0,0,.05);
+	
+	font-size: 11px;
+}
+
+.list_files_arquivo input, textarea{
+    width: 200px;
+}
+
+.list_files_arquivo .img {
+	text-align: center;
+}
+
+.list_files_arquivo .img img{
+    margin: 0 8px 8px 0;
+    max-height: 80px;
+    max-width: 80px;
+}
+
+.list_files_arquivo .file_actions{
+    text-align: center;
+	position: static;
+	width: auto;
+}
+
+.list_files_arquivo .file_actions a {
+	padding: 5px 6px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: rgba(211,210,207,1);
+	color: #333;
+}
+
+.list_files_arquivo .file_actions a:hover {
+	background: rgba(211,210,207,0.5);
+}
+
+.list_files_arquivo .file_content, .list_files_arquivo .size {
+	text-align: center;
+}

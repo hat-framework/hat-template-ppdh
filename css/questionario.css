@@ -1,0 +1,69 @@
+#quest_questionario_show_form{
+  
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+    
+    #quest_questionario_show_form input[type^="text"], #quest_questionario_show_form textarea{
+        width: 70%;
+    }
+    
+    #quest_questionario_show_form label{
+        display: initial;
+    }
+    
+    #quest_questionario_show_form #lresposta{
+        display: block;
+    }
+    
+    #enviar{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .sort{
+        width: 98%;
+        padding: 10px;
+        cursor: move;
+        background-color: #504943;
+        margin-bottom: 5px;
+        border: 0px;
+        color: #E2E2E2;
+        
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        
+    }
+    
+            .headertitle{
+                display: inline-table;
+                width: 70%;
+                cursor: pointer;
+            }
+            
+            .controls{
+                display: inline-table;
+                width: 25%;
+                float: right;
+            }
+            
+                .ctrlit{
+                    cursor: pointer;
+                    padding: 0;
+                    display: inline;
+                    float: right;
+                    margin-left: 8px;
+                }
+                
+                .destaque{
+                    background: orange;
+                    height: 1.5em; line-height: 1.2em; 
+                }
+
+                
+#detalhes.c_item{
+    width: 100%;
+}

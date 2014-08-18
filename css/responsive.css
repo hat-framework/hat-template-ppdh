@@ -1,0 +1,345 @@
+@media screen and (max-width: 1030px) {
+    
+    body {
+	    min-width: 100%;
+	    width: 100%;
+    }
+    
+    .content-wrap {
+		margin-top: 50px;
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 0px;
+		padding: 30px 0px;
+	}
+	
+	.content {
+		margin-left: 35px;
+		margin-right: 35px;
+		margin-top: 0px;
+	}
+	
+	.list-item.list_venda_evento {
+		width: 49%;
+		margin-right: 1%;
+	}
+	
+	.header {
+		width: 100%;	
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		
+		background-position: 10px 10px;
+	}
+	
+	.footer-outer {
+		width: 100%;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		
+		padding: 0 10px;
+		
+	}
+	
+}
+
+@media screen and (max-width: 750px) {
+	
+	.list-item.list_venda_evento {
+		width: 100%;
+		margin-right: 0px;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}	
+	
+    .content-wrap {
+		margin-top: 0px;
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 0px;
+		padding: 30px 0px;
+	}
+	
+	.content {
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-top: 0px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+
+	body {
+	    min-width: 100%;
+	    width: 100%;
+    }
+    
+    .content-wrap {
+		margin-top: 0px;
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 0px;
+		padding: 30px 0px;
+	}
+	
+	.content {
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-top: 0px;
+	}
+	
+	.header {
+		width: 100%;	
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		
+		background-position: 10px 10px;
+	}
+	
+	.footer-outer {
+		width: 100%;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		
+		padding: 0 10px;
+		
+	}
+
+	.list-item.list_venda_evento {
+		width: 100%;
+		margin-right: 0px;
+	}
+
+
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+	body {
+	    min-width: 100%;
+	    width: 100%;
+    }
+    
+    .content-wrap {
+		margin-top: 0px;
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 0px;
+		padding: 30px 0px;
+	}
+	
+	.content {
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-top: 0px;
+	}
+	
+	.list-item.list_venda_evento {
+		width: 49%;
+		margin-right: 1%;
+	}
+	
+	.header {
+		width: 100%;	
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		
+		background-position: 10px 10px;
+	}
+	
+	.footer-outer {
+		width: 100%;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		
+		padding: 0 10px;
+		
+	}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+
+	body {
+	    min-width: 768px;
+	    width: 768px;
+    }
+    
+    .content-wrap {
+		margin-top: 0px;
+		width: 100%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		border: 0px;
+		padding: 30px 0px;
+	}
+	
+	.content {
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-top: 0px;
+	}
+	
+	.list-item.list_venda_evento {
+		width: 100%;
+		margin-right: 0px;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	.header {
+		width: 768px;	
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		
+		background-position: 10px 10px;
+	}
+	
+	.footer-outer {
+		width: 100%;
+		
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		
+		padding: 0 10px;
+		
+	}
+
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	
+	.nav ul > li {
+		float: none;
+	}
+	
+	#minha-conta {
+		float: none;
+	}
+	
+	.header-wrap {
+		height: 50px;
+	}
+	
+	.header-wrap:hover {
+		height: auto;
+	}
+	
+	.header {
+		height: auto;
+		padding-top: 40px;
+	}
+	
+	.header:before {
+	    position: absolute;
+	    content: "Menu";
+	    top: 15px;
+	    left: 95px;
+	    color: rgb(238, 223, 203);
+	    font-weight: bold;
+	}
+	
+	.content ul.menu > li > a {
+		display: block;
+	}
+	.content ul.menu > li {
+		display: block;
+	}
+	.content div.menu {
+		height: auto;
+	}
+	
+	table {
+		border: 0px !important;
+	}
+	table thead {
+	    display: none;
+	}
+	table tr {
+	    display: block;
+	    margin-bottom: 10px;
+	    border: 1px solid #ccc;
+	    border-radius: 5px;
+	}
+	table td {
+	    display: block;
+	    border: 0px !important;
+	}
+	table td:first-child {
+	    font-weight: bold;
+	}
+	table td:before {
+	    display: block;
+	    content: attr(data-title);
+	    font-weight: normal;
+	    font-size: 10px;
+	    text-transform: uppercase;
+	    color: #999;
+	}
+	
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

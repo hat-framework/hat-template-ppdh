@@ -1,0 +1,36 @@
+.widget{
+    padding: 5px;
+}
+
+.widget_right{
+    border: 1px solid #76706D;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    width: 35%; 
+    float: right;
+}
+
+.widget_empresa_empresa{
+    width: 60%; float: left;
+}
+
+.widget_empresa_curso .list_empresa_curso{
+    display: inline-block;
+    border-top: 1px solid #CF7434;
+    margin: 3px;
+    padding: 3px;
+    width: 97%;
+    min-height: 80px;
+}
+
+.widget_empresa_curso .list_empresa_curso .title{
+    font-size: 18px;
+    display: block;
+}
+
+.widget_empresa_curso .list_empresa_curso .show{
+    position: relative;
+    bottom: 0;
+}
